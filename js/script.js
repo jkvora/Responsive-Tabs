@@ -49,7 +49,6 @@ var OnResponsiveTabSelected=function(){
 
 var ChangeSelection=function () {
   strSelectedIndex= $("#m_select").val().split("select")[1];
-
   RenderContent(strSelectedIndex);
 }
 
@@ -64,6 +63,7 @@ var RenderContent=function(contentid){
 // Check if it is mobile or not
 if (/Mobi/.test(navigator.userAgent)) {
   $('.tabs').hide();
+  $("[id^=rtab]").hide();
 }
 else {
   $('#m_list').hide();

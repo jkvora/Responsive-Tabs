@@ -85,9 +85,9 @@ ul.tabs li a.selected a:hover
     background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAASCAYAAACw50UTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAADdJREFUOE9jWDx/5n9a4VHDsWKG//9ph7EKUgtjFaQWHk0tWPFoUsSKsQpSC4+mFqyYhobP/A8Aro+vpw+QvnMAAAAASUVORK5CYII=');
     width: 23px;
     height: 18px;
-    top: 25px;
-    position: relative;
-    left: 94%;
+    top: 65px;
+    position: absolute;;
+    right: 100px;
     cursor: pointer;
 }
 #m_select{
